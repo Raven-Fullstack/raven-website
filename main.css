@@ -21,6 +21,7 @@ h1:hover{
     color: gray;
 }
 
+/* Links in the header */
 .head-links{
     float:right;
     margin: 30px;
@@ -28,7 +29,6 @@ h1:hover{
     display: flex;
     flex-direction: row;
 }
-
 .head-links a{
     color: red;
     font-size: 15px;
@@ -39,7 +39,7 @@ h1:hover{
     border-radius: 5px;
     background-color: #330066;
 }
-
+/* Mouse hover over links */
 .head-links a:hover{
     background-color: #6600aa;
 }
