@@ -10,12 +10,19 @@ header{
 }
 
 h1{
+    padding-left: 30px;
     font-size: 30px;
+    font-family: sans-serif;
+}
+
+.headlinks{
+    display: flex;
+    flex-direction: row;
+    flex
 }
 
 .floathead{
     width: auto;
-    padding-left: 20px;
 }
 
 
