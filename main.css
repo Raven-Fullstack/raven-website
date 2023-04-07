@@ -4,21 +4,44 @@ header{
     width:100%;
     position:fixed;
     margin: -10px 0px 0px -10px;
-    background-color: white;
+    background-color: black;
     border-bottom: 2px solid black;
-    border-radius: 20px;
+    border-radius: 0px 0px 50% 50% / 0px 0px 20px 20px;
 }
 
 h1{
+    color: lightgray;
     padding-left: 30px;
     font-size: 30px;
     font-family: sans-serif;
+    float: left;
 }
 
-.headlinks{
+h1:hover{
+    color: gray;
+}
+
+.head-links{
+    float:right;
+    margin: 30px;
+    width:auto;
     display: flex;
     flex-direction: row;
-    flex
+}
+
+.head-links a{
+    color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 1px solid gray;
+    margin-left: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #330066;
+}
+
+.head-links a:hover{
+    background-color: #6600aa;
 }
 
 .floathead{
