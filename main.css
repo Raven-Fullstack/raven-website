@@ -20,11 +20,15 @@ h1{
     font-size: 30px;
     font-family: sans-serif;
     float: left;
-    transition: color 300ms;
 }
 /* Hover over logo */
 h1:hover{
     color: lightgray;
+    transition: 300ms;
+}
+h1:active{
+    color: rgb(76, 168, 255);
+    transition: 0ms;
 }
 
 /* Links in the header */
@@ -49,6 +53,10 @@ h1:hover{
 /* Mouse hover over links */
 .head-links a:hover{
     background-color: #6600aa;
+}
+.head-links a:active{
+    background-color: #38005e;
+    transition: 0ms;
 }
 
 .floathead{
@@ -120,6 +128,20 @@ footer a:hover{
         border-radius: 5px;
         margin: 5px;
     }
+    .button{
+        margin-left:12px;
+        background-color:#37025a;
+        color:#c0c0c0;
+        transition: 100ms;
+    }
+    .button:hover{
+        background-color:#6900af;
+    }
+    .button active{
+        background-color:#47265e;
+        transition: 0ms;
+    }
+
     .letter-box{
         margin:5px 12px;
         width:100%;
