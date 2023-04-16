@@ -72,6 +72,9 @@ h1:active{
     width: 70%;
 }
 
+iframe{
+    float: left;
+}
 
 footer{
     width:100%;
