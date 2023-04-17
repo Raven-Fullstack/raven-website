@@ -31,6 +31,12 @@ h1:active{
     transition: 0ms;
 }
 
+h2{
+    color:#9b05ff;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
 /* Links in the header */
 .head-links{
     float:right;
