@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css" >
+    <link rel="icon" href="pictures/PFP.png">
+    <script src="contactsubmit.js"></script>
 </head>
 <body>
     <!-- Full heading with styles and links -->
@@ -17,6 +19,7 @@
             <section class="head-links">
                 <a href="about.html">About Me</a>
                 <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact Me!</a>
             </section>
         </section>
     </header>
@@ -28,8 +31,34 @@
 
         
     <!-- Page Content -->
-    <div class="page">    
-        
+    <div class="mail" style="position:relative">    
+        <div><h1>Send me a message!</h1></div>
+        <form>
+            <div class="contact-info">
+                <div>
+                    <label id="name">Full Name</label>
+                    <input for="name" type="text" required>
+                </div>
+            
+                <div>
+                    <label id="email">Email Address</label>
+                    <input for="email" type="email" required>
+                </div>
+                <div>
+                    <label id="phone">Phone Number</label>
+                    <input for="phone" type="tel">
+                </div>
+            </div>
+            <div style="padding-top: 20px;">
+                <label id="message">Your Message</label>
+            </div>
+            <div>
+                <textarea for="message" required></textarea>
+            </div>
+            <div>
+                <input class="button" type="submit" onclick="window.location.href=('formsubmitted.html')" value="Submit">
+            </div>
+        </form>
     </div>
 
 
@@ -39,7 +68,6 @@
     <footer>
         <div class="foot-links">
             <a href="https://mstdn.social">Mastodon</a>
-            <a href="https://twitter.com">Twitter</a>
             <a href="https://tumblr.com">Tumblr</a>
             <a href="https://reddit.com">Reddit</a>
             <a href="https://discord.com">Discord</a>
